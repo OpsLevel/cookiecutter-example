@@ -1,0 +1,15 @@
+{
+  "project_name": "example",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_description": "A golang example project.",
+  "github_org": "opslevel",
+  "use_docker": "y",
+  "docker_base_image": "scratch",
+  "zerolog_version": "v1.27.0",
+  "cobra_version": "v1.2.1",
+  "use_viper": "y",
+  "viper_version": "v1.8.1",
+  "_copy_without_render": [
+    "{{cookiecutter.project_name}}/src/.goreleaser.yml"
+  ]
+}
