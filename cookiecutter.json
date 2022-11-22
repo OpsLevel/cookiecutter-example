@@ -10,7 +10,7 @@
   "use_viper": "y",
   "viper_version": "v1.8.1",
   "_copy_without_render": [
-    "{{cookiecutter.project_name}}/src/.goreleaser.yml",
-    "{{cookiecutter.project_name}}/src/.changie.yaml"
+    "src/.goreleaser.yml",
+    ".changie.yaml"
   ]
 }

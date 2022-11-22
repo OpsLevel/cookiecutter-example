@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
 
 # Get Current Time from Google
+echo "[OPSLEVEL] Post Hook"
 curl -I 'https://google.com/' 2>/dev/null | grep -i '^date:' | sed 's/^[Dd]ate: //g'
 
 # You can replace this with any kind of script to reachout post generation
