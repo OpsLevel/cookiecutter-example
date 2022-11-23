@@ -1,0 +1,14 @@
+default:
+  tags:
+    - kubernetes
+
+variables:
+  FF_USE_FASTZIP: "true"
+
+job:
+  stage: build
+  script:
+  - echo "Hello World"
+
+stages:
+  - build
